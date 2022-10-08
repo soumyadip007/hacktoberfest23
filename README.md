@@ -93,7 +93,7 @@ For more information on syncing forks [read this article from Github](https://he
 ###### *We will do our best to merge as much as possible from everyone. However, time is limited and the merge conflicts are horrible :astonished: <3*
 <br>
 
-#### Follow me on [Linkedln](https://www.linkedin.com/in/soumyadip-chowdhury) 
+## Follow me on [Linkedln](https://www.linkedin.com/in/soumyadip-chowdhury) 
 
 ## Our Top Contributors 
 <p align="center"><a href="https://github.com/soumyadip007/hacktoberfest22/graphs/contributors">

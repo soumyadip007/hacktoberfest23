@@ -1,6 +1,6 @@
 Hacktoberfest-2022
 
-# Submit your PR on this new repo [Hacktoberfest](https://github.com/soumyadip007/hacktoberfest22) , There we are merging all PR. 
+# Submit your PR on this new repo [Hacktoberfest](https://github.com/soumyadip007/hacktoberfest22), There we are merging all PR. 
 
 In this current repo, there are alot of conflicts, we are not merging until all conflicts get resolved.
 

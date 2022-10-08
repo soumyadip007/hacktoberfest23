@@ -1,6 +1,6 @@
 Hacktoberfest-2022
 
-# Submit your PR on this new repo [Hacktoberfest](https://github.com/soumyadip/Hacktoberfest-22) , There we are merging all PR. 
+# Submit your PR on this new repo [Hacktoberfest](https://github.com/soumyadip007/hacktoberfest22) , There we are merging all PR. 
 
 In this current repo, there are alot of conflicts, we are not merging until all conflicts get resolved.
 
@@ -31,11 +31,11 @@ Hacktoberfest 2022
 - Clone on your local machine
 
 ```terminal
-git clone https://github.com/soumyadip007/Hacktoberfest-22.git
+git clone https://github.com/soumyadip007/hacktoberfest22.git
 ```
 - Navigate to project directory.
 ```terminal
-cd Hacktoberfest-22
+cd hacktoberfest22
 ```
 
 - Create a new Branch
@@ -67,7 +67,7 @@ git push origin my-new-branch
 An easy way to avoid conflicts is to add an 'upstream' for your git repo, as other PR's may be merged while you're working on your branch/fork.   
 
 ```terminal
-git remote add upstream https://github.com/soumyadip007/Hacktoberfest-22
+git remote add upstream https://github.com/soumyadip007/hacktoberfest22
 ```
 
 You can verify that the new remote has been added by typing
@@ -94,5 +94,5 @@ For more information on syncing forks [read this article from Github](https://he
 <br>
 
 ## Our Top Contributors 
-<p align="center"><a href="https://github.com/soumyadip007/hacktoberfest/graphs/contributors">
+<p align="center"><a href="https://github.com/soumyadip007/hacktoberfest22/graphs/contributors">
 </a></p>

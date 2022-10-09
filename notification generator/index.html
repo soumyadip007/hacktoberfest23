@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya+SC&family=Alegreya+Sans+SC:wght@300;400&family=Anton&family=Barlow:wght@300&family=Bebas+Neue&family=Cormorant+SC:wght@300;400;500;600;700&family=Cuprum:wght@400;500&family=Goldman:wght@400;700&family=Josefin+Slab:wght@300;400;600&family=Kanit:wght@500&family=Lato:wght@300;400;700&family=Lobster&family=Philosopher:wght@400;700&family=Poppins:wght@200;300;400;500;600&family=Secular+One&family=Teko:wght@300;400;500&family=Unna:wght@400;700&display=swap"
+        rel="stylesheet">
+    <title>Simple notification generator</title>
+</head>
+
+<body>
+    <div class="disabled">
+        <img src="https://images8.alphacoders.com/929/929202.jpg" alt="">
+        <h1>OOPS, we got lost.</h1>
+        <h3>Please click "allow" to the notifications pop-up. <br>Don't worry, this is a dummy website, we won't send spam notifications.</h3>
+        <button class="trybtn">try again</button>
+    </div>
+    <div class="askaccess active">
+        <h1>To get started...</h1>
+        <h3>Please click "allow" to the notifications pop-up. <br>Don't worry, this is a dummy website, we won't send spam notifications.</h3>
+        <button class="askbtn">Ask permission</button>
+        <span title="Click the icon on the leftmost side of searchbar and enable notifications">didn't work? Hover over me</span>
+    </div>
+    <div class="notif">
+        <div class="container">
+            <h2>Notification generator</h2>
+            <input type="text" placeholder="Your name here" class="user">
+            <input type="text" placeholder="Enter Notification subject" class="subject">
+            <input type="text" placeholder="Enter Notification text" class="body">
+            <button class="genbtn">Generate</button>
+        </div>
+    </div>
+    <script defer src="script.js"></script>
+</body>
+
+</html>

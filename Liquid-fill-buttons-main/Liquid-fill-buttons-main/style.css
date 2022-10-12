@@ -1,0 +1,88 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #262626;
+}
+ 
+.container{
+  width: 600px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+} 
+
+button{
+  width: 150px;
+  padding: 12px;
+  border-radius: 20px;
+  color: white;
+  border: 3px solid #284cff;
+  cursor: pointer;
+  background: transparent;
+  background-image: url('liquid.png');
+  background-repeat: repeat-x;
+  background-position: 0 -100%;
+  transition: 1.5s ease;
+}
+
+button:hover{
+  background-position: center;
+}
+
+button:nth-child(1){
+  filter: hue-rotate(0deg);
+}
+
+button:nth-child(2){
+  filter: hue-rotate(40deg);
+}
+
+button:nth-child(3){
+  filter: hue-rotate(60deg);
+}
+
+button:nth-child(4){
+  filter: hue-rotate(80deg);
+}
+
+button:nth-child(5){
+  filter: hue-rotate(100deg);
+}
+
+button:nth-child(6){
+  filter: hue-rotate(120deg);
+}
+
+button:nth-child(7){
+  filter: hue-rotate(140deg);
+}
+
+button:nth-child(8){
+  filter: hue-rotate(160deg);
+}
+
+button:nth-child(9){
+  filter: hue-rotate(180deg);
+}
+
+button:nth-child(10){
+  filter: hue-rotate(160deg);
+}
+
+button:nth-child(11){
+  filter: hue-rotate(200deg);
+}
+
+button:nth-child(12){
+  filter: hue-rotate(260deg);
+}

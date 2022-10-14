@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>curl-paste.local - Golang Powered Curl Pastebin</title>
+    <meta name="author" content="Vinu K">
+    <meta name="description" content="curl-paste.local is a simple
+        CLI curl pastebin service powered by Golang">
+    <link href="http://curl-paste.local/" rel="canonical">
+  </head>
+  <body data-new-gr-c-s-check-loaded="8.904.0" data-gr-ext-installed=""><pre>  BROWSER USAGE
+
+      <a href="http://curl-paste.local" alt="curl-paste.local web page">http://curl-paste.local/</a>
+
+  API USAGE
+
+      POST http://curl-paste.local/
+
+          Send the form data along. Will respond with a link to the paste.
+
+      GET https://curl-paste.local/&lt;id&gt;
+
+          Retrieve the paste with the given id as plain-text.
+
+  EXAMPLES
+
+      Paste a file named 'file.txt' using cURL:
+
+          curl -F 'title=Request from cURL' -F 'paste=&lt;file.txt' http://curl-paste.local/
+
+      Paste from stdin using cURL:
+
+          echo "Hello, world." | curl -F 'title=Request from cURL' -F 'paste=&lt;-' http://curl-paste.local/
+
+      A shell function that can be added to `.bashrc` or `.bash_profle` for
+      quick pasting from the command line. The command takes reads from stdin
+      if none was supplied and outputs the URL of the paste to stdout:
+      `echo "hi" | curl-paste`.
+
+          function curl-paste() {
+              curl -F 'title=Request from cURL' -F 'paste=<-' https://curl-paste.local
+          }
+  </pre>
+
+</body>
+</html>

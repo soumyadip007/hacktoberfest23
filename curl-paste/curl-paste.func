@@ -1,0 +1,4 @@
+URL="http://localhost:9990"
+function curl-paste() {
+      curl -F 'title=Post request from a Curl command' -F 'paste=<-' ${URL}
+}

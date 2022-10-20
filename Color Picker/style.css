@@ -24,11 +24,11 @@
 }
 #proceedBtn:hover {
   color: white;
-  background-color: black;
+  background-color: red;
 }
 
 #container {
-  width: 100vw;
-  height: 100vh;
-  transition: 0.2s;
+  width: 101vw;
+  height: 101vh;
+  transition: 0.5s;
 }

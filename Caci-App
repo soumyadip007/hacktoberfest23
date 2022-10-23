@@ -1,0 +1,820 @@
+<html lang="en"><script async="" src="//www.google-analytics.com/analytics.js"></script><script type="module" src="chrome-extension://jdkknkkbebbapilgoeccciglkfbmbnfm/hook.js"></script><head>
+    <title>Hello, World! - Learn HTML - Free Interactive HTML Tutorial</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="description" content="learn-html.org is a free interactive HTML tutorial for people who want to learn HTML, fast.">
+    <meta name="keywords" content="Learn,HTML,Tutorial,Interactive,Free">
+    <meta name="google-site-verification" content="cXWj61RCtO3fVP24Y7CO-nX0ba30tgdJYY8GGBactLI">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="Hello, World! - Learn HTML - Free
+    Interactive HTML Tutorial">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.learn-html.org/">
+    <meta property="og:image" content="https://www.learn-html.org/static/img/share-logos/learn-html.org.png">
+
+    <link rel="icon" href="/static/img/favicons/learn-html.org.ico" type="image/x-icon">
+
+    <link rel="stylesheet" type="text/css" href="/static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/css/codemirror.css">
+    <link rel="stylesheet" href="/static/css/theme/xq-light-media.css">
+    <link rel="stylesheet" href="/static/css/theme/xq-dark-media.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/prism-light.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/prism-dark.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/learnpython.css">
+
+    <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({
+              google_ad_client: "ca-pub-3723950136133694",
+              enable_page_level_ads: true
+         });
+    </script>
+</head>
+<body cz-shortcut-listen="true" data-new-gr-c-s-check-loaded="14.1085.0" data-gr-ext-installed="">
+
+<nav class="navbar navbar-expand-lg bg-light navbar-light">
+
+    <div class="container">
+    <a class="navbar-brand" href="/">
+        <img src="/static/img/favicons/learn-html.org.ico" style="height: 24px">
+        learn-html.org
+    </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="/about">About</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.learnx.org">Certify</a>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="more-langs" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    More Languages
+                </a>
+                <div class="dropdown-menu" aria-labelledby="more-langs">
+
+                    
+		                <a class="dropdown-item" href="https://www.learnpython.org">Python</a>
+                    
+		                <a class="dropdown-item" href="https://www.learnjavaonline.org">Java</a>
+                    
+		                <a class="dropdown-item disabled" href="https://www.learn-html.org">HTML</a>
+                    
+		                <a class="dropdown-item" href="https://www.learn-golang.org">Go</a>
+                    
+		                <a class="dropdown-item" href="https://www.learn-c.org">C</a>
+                    
+		                <a class="dropdown-item" href="https://www.learn-cpp.org">C++</a>
+                    
+		                <a class="dropdown-item" href="https://www.learn-js.org">JavaScript</a>
+                    
+		                <a class="dropdown-item" href="https://www.learn-php.org">PHP</a>
+                    
+		                <a class="dropdown-item" href="https://www.learnshell.org">Shell</a>
+                    
+		                <a class="dropdown-item" href="https://www.learncs.org">C#</a>
+                    
+		                <a class="dropdown-item" href="https://www.learn-perl.org">Perl</a>
+                    
+		                <a class="dropdown-item" href="https://www.learnrubyonline.org">Ruby</a>
+                    
+		                <a class="dropdown-item" href="https://www.learnscala.org">Scala</a>
+                    
+		                <a class="dropdown-item" href="https://www.learnsqlonline.org">SQL</a>
+                    
+
+                </div>
+              </li>
+
+
+
+
+
+
+        
+
+        </ul>
+
+        <ul class="navbar-nav">
+	        <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="langs" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			        <img src="/static/img/icon20x24px-exported-transparent.png" style="height: 20px" alt="Languages">
+                </a>
+                <div class="dropdown-menu" aria-labelledby="langs">
+                    
+		                <a class="dropdown-item disabled" href="/en/">English</a><br>
+		            
+		                <a class="dropdown-item" href="/nl/">Nederlands</a><br>
+		            
+                </div>
+    	    </li>
+
+            <li class="nav-item" style="padding-top: 10px">
+                <span></span>
+                <span></span>
+            </li>
+
+
+        </ul>
+
+    </div>
+
+    </div>
+
+</nav>
+
+<nav class="navbar-dark bg-primary navbar-expand-lg mb-3 d-none d-lg-block">
+
+    <div class="container">
+        <ul class="navbar-nav mr-auto">
+            
+                <li class="nav-item"><a class="nav-link" href="https://www.learnpython.org">Python</a></li>
+            
+                <li class="nav-item"><a class="nav-link" href="https://www.learnjavaonline.org">Java</a></li>
+            
+                <li class="nav-item"><a class="nav-link active" href="https://www.learn-html.org">HTML</a></li>
+            
+                <li class="nav-item"><a class="nav-link" href="https://www.learn-golang.org">Go</a></li>
+            
+                <li class="nav-item"><a class="nav-link" href="https://www.learn-c.org">C</a></li>
+            
+                <li class="nav-item"><a class="nav-link" href="https://www.learn-cpp.org">C++</a></li>
+            
+                <li class="nav-item"><a class="nav-link" href="https://www.learn-js.org">JavaScript</a></li>
+            
+                <li class="nav-item"><a class="nav-link" href="https://www.learn-php.org">PHP</a></li>
+            
+                <li class="nav-item"><a class="nav-link" href="https://www.learnshell.org">Shell</a></li>
+            
+                <li class="nav-item"><a class="nav-link" href="https://www.learncs.org">C#</a></li>
+            
+                <li class="nav-item"><a class="nav-link" href="https://www.learn-perl.org">Perl</a></li>
+            
+                <li class="nav-item"><a class="nav-link" href="https://www.learnrubyonline.org">Ruby</a></li>
+            
+                <li class="nav-item"><a class="nav-link" href="https://www.learnscala.org">Scala</a></li>
+            
+                <li class="nav-item"><a class="nav-link" href="https://www.learnsqlonline.org">SQL</a></li>
+            
+        </ul>
+
+    </div>
+
+</nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container" id="main">
+    <div class="row">
+        <div class="col-12">
+
+            <div class="mb-3">
+                <script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <!-- Interactive Tutorials Top -->
+                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3723950136133694" data-ad-slot="2345161899" data-ad-format="auto" data-full-width-responsive="true"></ins>
+                <script>
+                     (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+            </div>
+
+
+
+
+
+            
+                <ul class="breadcrumb" style="margin-top: 10px">
+                    
+                        <li><a href="/en/Welcome">Welcome</a> <span class="divider mr-1">/</span></li>
+                    
+                    <li class="active">Hello, World!</li>
+                </ul>
+            
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="col col-lg-10">
+            <div id="inner-text">
+                
+                    <h1>Hello, World!</h1>
+                    <hr>
+                
+                <p>Welcome to <em>Learn HTML</em>, the easiest way to learn HTML &amp; CSS online, interactively.</p>
+<p>Learning HTML &amp; CSS is essential for any web developer, and does not require to know how to program using JavaScript.</p>
+<p>Before you begin, I would recommend that you start out by downloading an HTML &amp; CSS IDE. My personal preference
+is to use an IDE by JetBrains. You can download the PyCharm Community Edition for free, which has really good HTML, 
+CSS and JavaScript development support built-in, along with all the goodies that a good IDE provides - source code
+integration, code refactoring, automatic indentation, syntax highlighting, comparison tool, etc. </p>
+<p><strong>Here is a list of HTML, CSS and JavaScript editors you can choose from:</strong></p>
+<ul>
+<li>VS Code (free, recommended) - <a href="https://code.visualstudio.com/">https://code.visualstudio.com/</a></li>
+<li>Atom (Free) - <a href="https://atom.io/">https://atom.io/</a></li>
+<li>JetBrains WebStorm (Commercial) - <a href="https://www.jetbrains.com/webstorm/">https://www.jetbrains.com/webstorm/</a></li>
+<li>Sublime Text (Commercial) - <a href="https://www.sublimetext.com/">https://www.sublimetext.com/</a></li>
+<li>Notepad++ (Windows only) - <a href="https://notepad-plus-plus.org/download/v7.html">https://notepad-plus-plus.org/download/v7.html</a></li>
+</ul>
+<p>In this tutorial you won't actually need an IDE, because all coding is done online.</p>
+<h3>Introduction</h3>
+<p>HTML (HyperText Markup Language) is a standard developed over the years to convey information over the internet by 
+using "hyperlinks" - or just links as we know them today. As opposed to a PDF, an HTML page is much more dynamic in
+nature, letting you browse the web by clicking on links and interacting with the page. Links could take you either
+to a different location within the current page, or to a different page over the internet.</p>
+<p>The last version of HTML is HTML 5.0, which has a LOT more capabilities than what the web originally had in mind.
+HTML 5 is an extremely comprehensive platform that allows creating a high-end user interface together with the power
+of CSS and JavaScript. HTML 5 is so powerful that it has managed to deprecate Adobe Flash, Microsoft's Silverlight,
+and just about all HTML plugins such as video players, Java applets, and more. </p>
+<p>So what is the difference between HTML, CSS, and JavaScript? First of all, they can all be encapsulated within an 
+HTML page, meaning that the browser starts by loading an HTML page, and only then it knows what to load from there.</p>
+<ul>
+<li>An <strong>HTML page</strong> is an HTML document that defines the content of the page by using a special markup similar to XML.</li>
+<li>A <strong>CSS stylesheet</strong> defines the style of the HTML elements in the page. It is either embeeded within an HTML page 
+or loaded using the <link> tag.</li>
+<li><strong>JavaScript</strong> is the programming language used to interact with the HTML page through an API called the DOM 
+(Document Object Model) Bindings. In other words, the DOM Bindings are the glue between the programming language and
+the HTML page that was initially loaded into the browser.</li>
+</ul>
+<p>The basics of this tutorial cover HTML and CSS. The advanced sections also assume knowledge in programming and 
+JavaScript. To learn JavaScript, go to https://www.learn-js.org.</p>
+<p>We will be using a CSS framework called Bootstrap by Twitter, the most common CSS library out there 
+today. The basic principles of a CSS library is pretty much the same - they are all based on the "grid system", 
+which is an easy way to define the layout of an HTML page - a methodology that was developed over the years in web 
+development.</p>
+<h3>Your first HTML Page</h3>
+<p>Let's start by creating a simple HTML page. An HTML page has the following basic layout:</p>
+<pre class="  language-html"><code class="  language-html"><span class="token doctype">&lt;!DOCTYPE html&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+        <span class="token comment" spellcheck="true">&lt;!-- head definitions go here --&gt;</span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+        <span class="token comment" spellcheck="true">&lt;!-- the content goes here --&gt;</span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span>
+</code></pre>
+<p>Let's start by creating a simple page that contains the phrase "Hello, World!" in the body. The page will also have 
+a title - that thing that shows up in the title of the tab in your browser. The <code class="  language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span></code> element defines the title
+of the HTML page.</p>
+<p>The <code class="  language-html"><span class="token doctype">&lt;!DOCTYPE html&gt;</span></code> tag defines the document type that the browser is going to render. This is used for legacy reasons.
+If you want to get to the latest version of HTML (HTML5) then it's recommended to use this tag.</p>
+<p>The <code class="  language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span></code> element defines a "paragraph", a block of text that has a small amount of spacing in between its top and 
+bottom.</p>
+<p>Notice how the tags have a start tag and an end tag denoted with a slash (<code class="  language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span></code>). Everything in between is the content
+of the tag. The content of a tag can usually have additional HTML tags within them.</p>
+<pre class="  language-html"><code class="  language-html"><span class="token doctype">&lt;!DOCTYPE html&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span>Example<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>This is an example of a simple HTML page with one paragraph.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span>
+</code></pre>
+<p>You may also copy and paste this code into a new file in your text editor or IDE, and save the file as "index.html". The
+"index.html" file is the default file that a web server will look for when accessing a website. After saving the file,
+you can double click it to open it with your browser.</p>
+<p>Now that we know the basic structure of an HTML page, let's try it out. </p>
+<h2>Exercise</h2>
+<ol>
+<li>Add an HTML <code class="  language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span></code> tag with the text "Hello, World!"</li>
+<li>Add a paragraph (<code class="  language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span></code> tag) to the body with the text "Hello, World!"</li>
+</ol>
+            </div>
+
+            <div class="row mt-2">
+                <div class="col">
+                    <button id="start-exercise" class="btn btn-success pull-left mt-2" onclick="reset()">
+                        <i class="fas fa-play"></i> Start Exercise
+                    </button>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="row mt-2 mb-2">
+                <div class="col">
+                    
+
+
+                    
+                        <a class="btn btn-primary pull-right" href="/en/Basic_Elements">
+                            Next Tutorial <i class="fas fa-angle-double-right"></i>
+                        </a>
+
+                    
+                </div>
+            </div>
+
+            <div class="row mt-2">
+                <div class="col">
+                    <script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                    <!-- Interactive Tutorials Bottom -->
+                    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3723950136133694" data-ad-slot="6124145877" data-ad-format="auto" data-full-width-responsive="true"></ins>
+                    <script>
+                         (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-2 d-none d-lg-block mt-2">
+            <div id="google-ad-right">
+                <h4 style="display: none !important;">Sponsors</h4>
+                <hr>
+
+
+
+                <div class="mt-3" style="display: none !important;">
+                    <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                    <!-- Interactive Tutorials Right -->
+                    <ins class="adsbygoogle" style="display:inline-block;width:160px;height:600px" data-ad-client="ca-pub-3723950136133694" data-ad-slot="5528539062"></ins>
+                    <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+                </div>
+                <div class="mt-3" style="display: none !important;">
+                    <a href="https://digitalocean.com/" target="_blank">
+                        <img src="/static/img/banners/digital-ocean.svg" style="width: 160px" alt="Digital Ocean">
+                    </a>
+                </div>
+                <div class="mt-3" style="display: none !important;">
+                    <a href="http://www.spoj.com/?utm_campaign=permanent&amp;utm_medium=banner&amp;utm_source=learnx" target="_blank">
+                        <img src="/static/img/logos/spoj.png" style="width: 160px" alt="Sphere Engine">
+                    </a>
+                </div>
+                <h4 class="mt-3">Chapters</h4>
+                <hr>
+                <div class="mt-2">
+                    
+                        <div>
+                            <a href="/en/Hello%2C_World%21">Hello, World!</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Basic_Elements">Basic Elements</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Links">Links</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Lists">Lists</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Images">Images</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Styles">Styles</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Classes">Classes</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Selectors">Selectors</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Pseudo-classes">Pseudo-classes</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/UI_Libraries">UI Libraries</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Bootstrap">Bootstrap</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Grid_Layout">Grid Layout</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/JavaScript">JavaScript</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Colors">Colors</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Display">Display</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Box_Model">Box Model</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Icons">Icons</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Buttons">Buttons</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Navigation_Bar">Navigation Bar</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Dropdowns">Dropdowns</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Tooltips">Tooltips</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/List_Design">List Design</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Table_Design">Table Design</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Form_Design">Form Design</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Text_Formatting">Text Formatting</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Tables">Tables</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Iframes">Iframes</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Forms">Forms</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Canvas">Canvas</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/SVG">SVG</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Video">Video</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Audio">Audio</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Drag_and_Drop">Drag and Drop</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Local_Storage">Local Storage</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/App_Cache">App Cache</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Web_Workers">Web Workers</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Server-Sent_Events">Server-Sent Events</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Height_and_Width">Height and Width</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Responsive_Web_Design">Responsive Web Design</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Box_Sizing">Box Sizing</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Outline">Outline</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Fonts">Fonts</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Text_Effects">Text Effects</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Link_Design">Link Design</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Position">Position</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Negative_Margins">Negative Margins</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Overflow">Overflow</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Float">Float</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Text_Alignment">Text Alignment</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Opacity">Opacity</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Border_Images">Border Images</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Backgrounds">Backgrounds</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Gradients">Gradients</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Shadows">Shadows</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Rounded_Corners">Rounded Corners</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Transforms">Transforms</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Transitions">Transitions</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Media_Queries">Media Queries</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Advanced_Selectors">Advanced Selectors</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Filters">Filters</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Animations">Animations</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Viewport">Viewport</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Flexbox">Flexbox</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Columns">Columns</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/CSS_Variables">CSS Variables</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/3D_Transforms">3D Transforms</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Input_Pseudo-classes">Input Pseudo-classes</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Pseudo-elements">Pseudo-elements</a>
+                        </div>
+                    
+                        <div>
+                            <a href="/en/Contributing_Tutorials">Contributing Tutorials</a>
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+
+    </div> <!-- row -->
+
+</div>
+
+
+<div class="bg-light mb-5 mt-5">
+
+    <div class="container-fluid bg-light pt-3 pb-3">
+        <div class="row">
+            <div class="col-12 text-center">
+                <div>Copyright © learn-html.org. Read our <a href="/tos">Terms of Use</a> and <a href="/privacy">Privacy Policy</a></div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<footer id="dock" class="maximized">
+    <div class="container">
+        <div class="row mb-2">
+            <div class="col-sm-12 col-lg-6 mt-3">
+                <div class="code-window">
+                    <div class="row mb-2">
+                        <div class="col-2">
+                            <h5>Code</h5>
+                        </div>
+
+                        <div class="col-10 text-right">
+                            <button id="run-button" class="btn btn-success btn-sm" onclick="execute()">
+                                <i class="fas fa-play"></i> Run
+                            </button>
+                            <button id="reset-button" onclick="reset()" class="btn btn-primary btn-sm">
+                                <i class="fas fa-sync-alt"></i> Reset</button>
+                            <button id="solution-button" onclick="showSolution()" class="btn btn-primary btn-sm">Solution</button>
+
+                            <button id="toggle-dock-button" class="btn btn-sm btn-success" onclick="toggleMinimize()">
+                                <span class="maximized">
+                                    <i class="fas fa-angle-double-down"></i>
+                                </span>
+                                <span class="minimized">
+                                    <i class="fas fa-angle-double-up"></i>
+                                </span>
+                            </button>
+
+                        </div>
+                    </div>
+
+                    <div class="row footer-toggle">
+                        <div class="col">
+                            <textarea id="code" style="display: none;">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</textarea><div class="CodeMirror cm-s-xq-light"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 4px; left: 25px;"><textarea autocorrect="off" autocapitalize="off" tabindex="0" style="position: absolute; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-hscrollbar" style="min-height: 18px; left: 21px;"><div style="height: 1px;"></div></div><div class="CodeMirror-vscrollbar" style="bottom: 0px; min-width: 18px;"><div style="width: 1px; height: 8px;"></div></div><div class="CodeMirror-scrollbar-filler"></div><div class="CodeMirror-scroll" tabindex="-1"><div style="position: relative; min-height: 100%;"><div class="CodeMirror-sizer" style="min-width: 382.656px; min-height: 152px; margin-left: 21px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines"><div style="position: relative; outline: none;"><div class="CodeMirror-measure"><div style="width: 50px; height: 50px; overflow-x: scroll;"></div></div><div style="position: relative; z-index: 1; display: none;"></div><div style=""><div style="position: relative;"><div style="position: absolute; left: -21px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="width: 12px;">1</div></div><pre><span class="cm-meta">&lt;!DOCTYPE html&gt;</span></pre></div><div style="position: relative;"><div style="position: absolute; left: -21px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="width: 12px;">2</div></div><pre><span class="cm-tag">&lt;html&gt;</span></pre></div><div style="position: relative;"><div style="position: absolute; left: -21px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="width: 12px;">3</div></div><pre>    <span class="cm-tag">&lt;head&gt;</span></pre></div><div style="position: relative;"><div style="position: absolute; left: -21px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="width: 12px;">4</div></div><pre>        <span class="cm-tag">&lt;title&gt;</span>Hello, World!<span class="cm-tag">&lt;/title&gt;</span></pre></div><div style="position: relative;"><div style="position: absolute; left: -21px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="width: 12px;">5</div></div><pre>    <span class="cm-tag">&lt;/head&gt;</span></pre></div><div style="position: relative;"><div style="position: absolute; left: -21px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="width: 12px;">6</div></div><pre>    <span class="cm-tag">&lt;body&gt;</span></pre></div><div style="position: relative;"><div style="position: absolute; left: -21px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="width: 12px;">7</div></div><pre>        <span class="cm-tag">&lt;p&gt;</span>Hello, World!<span class="cm-tag">&lt;/p&gt;</span></pre></div><div style="position: relative;"><div style="position: absolute; left: -21px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="width: 12px;">8</div></div><pre>    <span class="cm-tag">&lt;/body&gt;</span></pre></div><div style="position: relative;"><div style="position: absolute; left: -21px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="width: 12px;">9</div></div><pre><span class="cm-tag">&lt;/html&gt;</span></pre></div></div><div class="CodeMirror-cursor" style="left: 4px; top: 0px; height: 16px;">&nbsp;</div><div class="CodeMirror-cursor CodeMirror-secondarycursor" style="display: none;">&nbsp;</div></div></div></div></div><div style="position: absolute; height: 30px; top: 152px;">&nbsp;</div><div class="CodeMirror-gutters"><div class="CodeMirror-gutter CodeMirror-linenumbers" style="width: 20px;"></div></div></div></div></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-6 mt-3">
+                <div class="output-window">
+                    <div class="row mb-2">
+                        <div class="col-3">
+                            <h5>Output</h5>
+                        </div>
+                        <div class="col-9 text-right">
+                            <button id="expected-output-button" class="btn btn-primary btn-sm" onclick="showExpected()">
+                                Expected Output
+                            </button>
+
+                        </div>
+
+                    </div>
+                    <div class="row footer-toggle">
+                        <div class="col">
+                            <div id="text-output">
+                                <textarea id="output" style="display: none;"></textarea><div class="CodeMirror cm-s-xq-light"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 0px;"><textarea autocorrect="off" autocapitalize="off" tabindex="0" style="position: absolute; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-hscrollbar" style="min-height: 18px;"><div style="height: 1px;"></div></div><div class="CodeMirror-vscrollbar" style="display: block; bottom: 0px; min-width: 18px;"><div style="width: 1px; height: 1px;"></div></div><div class="CodeMirror-scrollbar-filler"></div><div class="CodeMirror-scroll" tabindex="-1"><div style="position: relative; min-height: 100%;"><div class="CodeMirror-sizer" style="min-width: 33px; min-height: 1px;"><div style="position: relative;"><div class="CodeMirror-lines"><div style="position: relative; outline: none;"><div class="CodeMirror-measure"><div style="width: 50px; height: 50px; overflow-x: scroll;"></div></div><div style="position: relative; z-index: 1; display: none;"></div><div></div><div class="CodeMirror-cursor" style="left: 0px; top: 0px; height: 0px;">&nbsp;</div><div class="CodeMirror-cursor CodeMirror-secondarycursor" style="display: none;">&nbsp;</div></div></div></div></div><div style="position: absolute; height: 30px; top: 1px;">&nbsp;</div><div class="CodeMirror-gutters" style="display: none;"></div></div></div></div>
+                                <div class="powered-by-sphere">
+                                    Powered by <a target="_blank" href="http://sphere-engine.com/">Sphere Engine ™</a>
+                                </div>
+                            </div>
+                            <iframe id="html-output" style="border: 1px solid #ccc; box-sizing: border-box; background-color: white; display: none; height: 200px; width: 100%"></iframe>
+                            <iframe id="expected-output" style="border: 1px solid #ccc; box-sizing: border-box; background-color: white; display: none; height: 200px; width: 100%"></iframe>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</footer>
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+<script src="/static/js/prism.js"></script>
+
+<script async="" defer="" src="https://buttons.github.io/buttons.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous">
+
+<script src="/static/js/codemirror/codemirror.js"></script>
+<script src="/static/js/codemirror/addon/edit/matchbrackets.js"></script>
+<script src="/static/js/codemirror/mode/clike/clike.js"></script>
+
+
+
+
+
+
+
+
+<script src="/static/js/codemirror/mode/xml/xml.js"></script>
+<script src="/static/js/codemirror/mode/css/css.js"></script>
+<script src="/static/js/codemirror/mode/htmlembedded/htmlembedded.js"></script>
+<script src="/static/js/codemirror/mode/htmlmixed/htmlmixed.js"></script>
+<script src="/static/js/bootstrap.min.js"></script>
+<script src="/static/js/bootbox.min.js"></script>
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-22741967-17', 'learn-html.org');
+  ga('create', 'UA-22741967-11', 'learn-html.org');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+
+
+<script>
+    var domainData = {"language": "html", "codemirror_mode": "text/html", "prism_mode": "language-html", "analytics": "UA-22741967-11", "language_uppercase": "HTML", "default_code": "<!-- Welcome to the Interactive HTML & CSS Tutorial.\nStart by choosing a chapter and\nwrite your code in this window.\n-->\n<!DOCTYPE html>\n<html>\n    <head>\n        <title>Hello, World!</title>\n    </head>\n    <body>\n        <p>Hello, World!</p>\n    </body>\n</html>\n", "namespace": "learn-html.org", "full_url": "https://www.learn-html.org", "contact_email": "admin@learn-html.org", "support_email": "support@learn-html.org", "logo": "/static/img/logos/learn-html.org.png", "share_logo": "/static/img/share-logos/learn-html.org.png", "favicon": "/static/img/favicons/learn-html.org.ico", "styled_domain": "learn-html.org", "sender": "learn-html.org <admin@learn-html.org>", "courses": [{"advertiser": "Udemy", "category": "Development", "image_url": "https://udemy-images.udemy.com/course/480x270/437398_46c3_8.jpg", "link": "https://click.linksynergy.com/link?id=2mhs2G02AJA&offerid=358574.437398&type=2&murl=https%3A%2F%2Fwww.udemy.com%2Fdesign-and-develop-a-killer-website-with-html5-and-css3%2F", "link_code": "<a href=\"https://click.linksynergy.com/link?id=2mhs2G02AJA&offerid=358574.437398&type=2&murl=https%3A%2F%2Fwww.udemy.com%2Fdesign-and-develop-a-killer-website-with-html5-and-css3%2F\"><IMG border=0 src=\"https://udemy-images.udemy.com/course/480x270/437398_46c3_8.jpg\" ></a><IMG border=0 width=1 height=1 src=\"https://ad.linksynergy.com/fs-bin/show?id=2mhs2G02AJA&bids=358574.437398&type=2&subid=0\" >", "link_id": "437398", "link_name": "Build Responsive Real World Websites with HTML5 and CSS3", "pixel_url": "https://ad.linksynergy.com/fs-bin/show?id=2mhs2G02AJA&bids=358574.437398&type=2&subid=0", "retail_price": 195.0}, {"advertiser": "Udemy", "category": "Development", "image_url": "https://udemy-images.udemy.com/course/480x270/1302590_4889_4.jpg", "link": "https://click.linksynergy.com/link?id=2mhs2G02AJA&offerid=358574.1302590&type=2&murl=https%3A%2F%2Fwww.udemy.com%2Fstep-by-step-html-and-css-course-for-beginners%2F", "link_code": "<a href=\"https://click.linksynergy.com/link?id=2mhs2G02AJA&offerid=358574.1302590&type=2&murl=https%3A%2F%2Fwww.udemy.com%2Fstep-by-step-html-and-css-course-for-beginners%2F\"><IMG border=0 src=\"https://udemy-images.udemy.com/course/480x270/1302590_4889_4.jpg\" ></a><IMG border=0 width=1 height=1 src=\"https://ad.linksynergy.com/fs-bin/show?id=2mhs2G02AJA&bids=358574.1302590&type=2&subid=0\" >", "link_id": "1302590", "link_name": "Step By Step HTML and CSS course for beginners", "pixel_url": "https://ad.linksynergy.com/fs-bin/show?id=2mhs2G02AJA&bids=358574.1302590&type=2&subid=0", "retail_price": 120.0}, {"advertiser": "Udemy", "category": "Development", "image_url": "https://udemy-images.udemy.com/course/480x270/1252318_3965_2.jpg", "link": "https://click.linksynergy.com/link?id=2mhs2G02AJA&offerid=358574.1252318&type=2&murl=https%3A%2F%2Fwww.udemy.com%2Fthe-complete-html-and-css-course-for-beginners%2F", "link_code": "<a href=\"https://click.linksynergy.com/link?id=2mhs2G02AJA&offerid=358574.1252318&type=2&murl=https%3A%2F%2Fwww.udemy.com%2Fthe-complete-html-and-css-course-for-beginners%2F\"><IMG border=0 src=\"https://udemy-images.udemy.com/course/480x270/1252318_3965_2.jpg\" ></a><IMG border=0 width=1 height=1 src=\"https://ad.linksynergy.com/fs-bin/show?id=2mhs2G02AJA&bids=358574.1252318&type=2&subid=0\" >", "link_id": "1252318", "link_name": "The Complete HTML and CSS Course For Beginners", "pixel_url": "https://ad.linksynergy.com/fs-bin/show?id=2mhs2G02AJA&bids=358574.1252318&type=2&subid=0", "retail_price": 85.0}, {"advertiser": "Udemy", "category": "Development", "image_url": "https://udemy-images.udemy.com/course/480x270/80940_2664_8.jpg", "link": "https://click.linksynergy.com/link?id=2mhs2G02AJA&offerid=358574.80940&type=2&murl=https%3A%2F%2Fwww.udemy.com%2Fbuild-website-scratch%2F", "link_code": "<a href=\"https://click.linksynergy.com/link?id=2mhs2G02AJA&offerid=358574.80940&type=2&murl=https%3A%2F%2Fwww.udemy.com%2Fbuild-website-scratch%2F\"><IMG border=0 src=\"https://udemy-images.udemy.com/course/480x270/80940_2664_8.jpg\" ></a><IMG border=0 width=1 height=1 src=\"https://ad.linksynergy.com/fs-bin/show?id=2mhs2G02AJA&bids=358574.80940&type=2&subid=0\" >", "link_id": "80940", "link_name": "Build Websites from Scratch with HTML & CSS", "pixel_url": "https://ad.linksynergy.com/fs-bin/show?id=2mhs2G02AJA&bids=358574.80940&type=2&subid=0", "retail_price": 145.0}, {"advertiser": "Udemy", "category": "Development", "image_url": "https://udemy-images.udemy.com/course/480x270/365886_45be_3.jpg", "link": "https://click.linksynergy.com/link?id=2mhs2G02AJA&offerid=358574.365886&type=2&murl=https%3A%2F%2Fwww.udemy.com%2Fcrash-course-html-and-css%2F", "link_code": "<a href=\"https://click.linksynergy.com/link?id=2mhs2G02AJA&offerid=358574.365886&type=2&murl=https%3A%2F%2Fwww.udemy.com%2Fcrash-course-html-and-css%2F\"><IMG border=0 src=\"https://udemy-images.udemy.com/course/480x270/365886_45be_3.jpg\" ></a><IMG border=0 width=1 height=1 src=\"https://ad.linksynergy.com/fs-bin/show?id=2mhs2G02AJA&bids=358574.365886&type=2&subid=0\" >", "link_id": "365886", "link_name": "A Web Development Crash Course in HTML5 and CSS3", "pixel_url": "https://ad.linksynergy.com/fs-bin/show?id=2mhs2G02AJA&bids=358574.365886&type=2&subid=0", "retail_price": 40.0}], "language_code": "en"};
+    var nextChapter = "/en/Basic_Elements";
+    var previousChapter = "/en/";
+    var backChapter = "/en/Welcome";
+    var tutorialData = {"page_title": "Hello, World!", "text": "<p>Welcome to <em>Learn HTML</em>, the easiest way to learn HTML &amp; CSS online, interactively.</p>\n<p>Learning HTML &amp; CSS is essential for any web developer, and does not require to know how to program using JavaScript.</p>\n<p>Before you begin, I would recommend that you start out by downloading an HTML &amp; CSS IDE. My personal preference\nis to use an IDE by JetBrains. You can download the PyCharm Community Edition for free, which has really good HTML, \nCSS and JavaScript development support built-in, along with all the goodies that a good IDE provides - source code\nintegration, code refactoring, automatic indentation, syntax highlighting, comparison tool, etc. </p>\n<p><strong>Here is a list of HTML, CSS and JavaScript editors you can choose from:</strong></p>\n<ul>\n<li>VS Code (free, recommended) - <a href='https://code.visualstudio.com/'>https://code.visualstudio.com/</a></li>\n<li>Atom (Free) - <a href='https://atom.io/'>https://atom.io/</a></li>\n<li>JetBrains WebStorm (Commercial) - <a href='https://www.jetbrains.com/webstorm/'>https://www.jetbrains.com/webstorm/</a></li>\n<li>Sublime Text (Commercial) - <a href='https://www.sublimetext.com/'>https://www.sublimetext.com/</a></li>\n<li>Notepad++ (Windows only) - <a href='https://notepad-plus-plus.org/download/v7.html'>https://notepad-plus-plus.org/download/v7.html</a></li>\n</ul>\n<p>In this tutorial you won't actually need an IDE, because all coding is done online.</p>\n<h3>Introduction</h3>\n<p>HTML (HyperText Markup Language) is a standard developed over the years to convey information over the internet by \nusing \"hyperlinks\" - or just links as we know them today. As opposed to a PDF, an HTML page is much more dynamic in\nnature, letting you browse the web by clicking on links and interacting with the page. Links could take you either\nto a different location within the current page, or to a different page over the internet.</p>\n<p>The last version of HTML is HTML 5.0, which has a LOT more capabilities than what the web originally had in mind.\nHTML 5 is an extremely comprehensive platform that allows creating a high-end user interface together with the power\nof CSS and JavaScript. HTML 5 is so powerful that it has managed to deprecate Adobe Flash, Microsoft's Silverlight,\nand just about all HTML plugins such as video players, Java applets, and more. </p>\n<p>So what is the difference between HTML, CSS, and JavaScript? First of all, they can all be encapsulated within an \nHTML page, meaning that the browser starts by loading an HTML page, and only then it knows what to load from there.</p>\n<ul>\n<li>An <strong>HTML page</strong> is an HTML document that defines the content of the page by using a special markup similar to XML.</li>\n<li>A <strong>CSS stylesheet</strong> defines the style of the HTML elements in the page. It is either embeeded within an HTML page \nor loaded using the <link> tag.</li>\n<li><strong>JavaScript</strong> is the programming language used to interact with the HTML page through an API called the DOM \n(Document Object Model) Bindings. In other words, the DOM Bindings are the glue between the programming language and\nthe HTML page that was initially loaded into the browser.</li>\n</ul>\n<p>The basics of this tutorial cover HTML and CSS. The advanced sections also assume knowledge in programming and \nJavaScript. To learn JavaScript, go to https://www.learn-js.org.</p>\n<p>We will be using a CSS framework called Bootstrap by Twitter, the most common CSS library out there \ntoday. The basic principles of a CSS library is pretty much the same - they are all based on the \"grid system\", \nwhich is an easy way to define the layout of an HTML page - a methodology that was developed over the years in web \ndevelopment.</p>\n<h3>Your first HTML Page</h3>\n<p>Let's start by creating a simple HTML page. An HTML page has the following basic layout:</p>\n<pre><code>&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n    &lt;head&gt;\n        &lt;!-- head definitions go here --&gt;\n    &lt;/head&gt;\n    &lt;body&gt;\n        &lt;!-- the content goes here --&gt;\n    &lt;/body&gt;\n&lt;/html&gt;\n</code></pre>\n<p>Let's start by creating a simple page that contains the phrase \"Hello, World!\" in the body. The page will also have \na title - that thing that shows up in the title of the tab in your browser. The <code>&lt;title&gt;</code> element defines the title\nof the HTML page.</p>\n<p>The <code>&lt;!DOCTYPE html&gt;</code> tag defines the document type that the browser is going to render. This is used for legacy reasons.\nIf you want to get to the latest version of HTML (HTML5) then it's recommended to use this tag.</p>\n<p>The <code>&lt;p&gt;</code> element defines a \"paragraph\", a block of text that has a small amount of spacing in between its top and \nbottom.</p>\n<p>Notice how the tags have a start tag and an end tag denoted with a slash (<code>&lt;/p&gt;</code>). Everything in between is the content\nof the tag. The content of a tag can usually have additional HTML tags within them.</p>\n<pre><code>&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n    &lt;head&gt;\n        &lt;title&gt;Example&lt;/title&gt;\n    &lt;/head&gt;\n    &lt;body&gt;\n        &lt;p&gt;This is an example of a simple HTML page with one paragraph.&lt;/p&gt;\n    &lt;/body&gt;\n&lt;/html&gt;\n</code></pre>\n<p>You may also copy and paste this code into a new file in your text editor or IDE, and save the file as \"index.html\". The\n\"index.html\" file is the default file that a web server will look for when accessing a website. After saving the file,\nyou can double click it to open it with your browser.</p>\n<p>Now that we know the basic structure of an HTML page, let's try it out. </p>\n<h2>Exercise</h2>\n<ol>\n<li>Add an HTML <code>&lt;title&gt;</code> tag with the text \"Hello, World!\"</li>\n<li>Add a paragraph (<code>&lt;p&gt;</code> tag) to the body with the text \"Hello, World!\"</li>\n</ol>", "code": "<!DOCTYPE html>\n<html>\n    <head>\n    </head>\n    <body>\n    </body>\n</html>\n", "back_chapter": "Welcome", "next_chapter": "Basic_Elements", "links": [["https://code.visualstudio.com/", "https://code.visualstudio.com/"], ["https://atom.io/", "https://atom.io/"], ["https://www.jetbrains.com/webstorm/", "https://www.jetbrains.com/webstorm/"], ["https://www.sublimetext.com/", "https://www.sublimetext.com/"], ["https://notepad-plus-plus.org/download/v7.html", "https://notepad-plus-plus.org/download/v7.html"]], "output": "<!DOCTYPE html>\n<html>\n    <head>\n        <title>Hello, World!</title>\n    </head>\n    <body>\n        <p>Hello, World!</p>\n    </body>\n</html>", "solution": "<!DOCTYPE html>\n<html>\n    <head>\n        <title>Hello, World!</title>\n    </head>\n    <body>\n        <p>Hello, World!</p>\n    </body>\n</html>", "is_tutorial": true};
+</script>
+
+<script src="/static/js/learnpython.js"></script>
+
+
+
+<iframe frameborder="0" scrolling="no" style="background-color: transparent; border: 0px; display: none;"></iframe><div id="GOOGLE_INPUT_CHEXT_FLAG" style="display: none;" input="" input_stat="{&quot;tlang&quot;:true,&quot;tsbc&quot;:true,&quot;pun&quot;:true,&quot;mk&quot;:true,&quot;ss&quot;:true}"></div></body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
